@@ -1,32 +1,22 @@
-package joyee.findlostthings;
+package joyee.findlost;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.provider.MediaStore;
-import android.provider.SyncStateContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Base64;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
-
-import java.io.ByteArrayOutputStream;
-
-import static android.R.attr.data;
-import static joyee.findlostthings.R.id.btn_camera;
-import static joyee.findlostthings.R.id.btn_save;
 
 public class AddItemActivity extends AppCompatActivity {
     private static final int RC_IMAGE = 2;
@@ -78,9 +68,8 @@ public class AddItemActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-
-                User users = new User(ItemName.getText().toString(), ItemLocation.getText().toString(), ItemDiscription.getText().toString(), Date.getText().toString(), Time.getText().toString(), downloadUrl.toString());
-                mDatabaseReference.push().setValue(users);
+               /* User users = new User(ItemName.getText().toString(), ItemLocation.getText().toString(), ItemDiscription.getText().toString(), Date.getText().toString(), Time.getText().toString(), downloadUrl.toString());
+                mDatabaseReference.push().setValue(users);*/
             }
 
 

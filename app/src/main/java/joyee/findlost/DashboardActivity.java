@@ -1,4 +1,4 @@
-package joyee.findlostthings;
+package joyee.findlost;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ItemsActivity extends AppCompatActivity {
+public class DashboardActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class ItemsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(android.view.View v) {
-                Intent intent = new Intent(ItemsActivity.this,AddItemActivity.class);
+                Intent intent = new Intent(DashboardActivity.this,AddItemActivity.class);
                 startActivity(intent);
 
             }
