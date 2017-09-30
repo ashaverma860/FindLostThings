@@ -1,4 +1,4 @@
-package joyee.findlostthings;
+package joyee.findlost;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -18,7 +18,7 @@ public class LostAndFoundActivity extends AppCompatActivity {
 
             @Override
             public void onClick(android.view.View v) {
-                Intent intent = new Intent(LostAndFoundActivity.this,ItemsActivity.class);
+                Intent intent = new Intent(LostAndFoundActivity.this,DashboardActivity.class);
                 startActivity(intent);
 
             }

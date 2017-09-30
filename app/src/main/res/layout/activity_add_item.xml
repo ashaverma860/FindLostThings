@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="joyee.findlostthings.AddItemActivity"
+    tools:context="joyee.findlost.AddItemActivity"
     android:orientation="vertical"
     android:padding="16dp">
     <LinearLayout

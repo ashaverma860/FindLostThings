@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "26.0.1"
     defaultConfig {
-        applicationId "joyee.findlostthings"
+        applicationId "joyee.findlost"
         minSdkVersion 16
         targetSdkVersion 25
         versionCode 1

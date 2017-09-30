@@ -1,4 +1,4 @@
-package joyee.findlostthings;
+package joyee.findlost;
 
 import android.content.Context;
 import android.content.Intent;

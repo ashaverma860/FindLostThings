@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="joyee.findlostthings">
+    package="joyee.findlost">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -10,28 +15,36 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LostAndFoundActivity">
+
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AddItemActivity"
+            android:label="AddItem" />
+        <activity
+            android:name=".ItemDetails"
+            android:label="ItemDetails" />
+
+        <uses-permission android:name="android.permission.INTERNET" />
+
+        <uses-feature
+            android:name="android.hardware.camera"
+            android:required="false" />
+
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="@string/title_activity_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity
-            android:name=".ItemsActivity"
-
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name=".AddItemActivity"
-            android:label="AddItem" />
-        <activity android:name=".ItemDetails"
-            android:label="ItemDetails"></activity>
-        <uses-permission
-            android:name="android.permission.INTERNET"/>
-
-        <uses-feature android:name="android.hardware.camera" android:required="false" />
-        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-
     </application>
 
 </manifest>
