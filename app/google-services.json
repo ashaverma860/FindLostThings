@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "965322110909",
+    "firebase_url": "https://findlostthings-3af34.firebaseio.com",
+    "project_id": "findlostthings-3af34",
+    "storage_bucket": "findlostthings-3af34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965322110909:android:84f7a4697e5bf9da",
+        "android_client_info": {
+          "package_name": "joyee.findlostthings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965322110909-418ae17d17j2vovno8dqn7jjo9e0u0ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "joyee.findlostthings",
+            "certificate_hash": "3a89368bb912f68086292b808c24fc10eb634e38"
+          }
+        },
+        {
+          "client_id": "965322110909-18l2et3trsv4atbcd74iprdm3qoesdqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCnODmzyOINphP-_w7zgAURlbysRvayHc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965322110909-18l2et3trsv4atbcd74iprdm3qoesdqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
